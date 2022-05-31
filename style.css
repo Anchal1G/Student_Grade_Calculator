@@ -1,0 +1,63 @@
+
+.container{
+    position: absolute;
+    background-color:rgb(113, 113, 113);
+    color:rgb(18, 16, 16);
+    width: 60vw;
+    height: 50vh;
+}
+.app-title{
+    color:rgb(248, 248, 249);
+    /* background-color:darkgreen; */
+    padding-top: 50px;
+    text-align: center;
+    position: relative;
+    font-weight: 300px;
+    font-family: 'Times New Roman', Times, serif;
+    text-transform: capitalize;
+    text-shadow: rgb(163, 123, 123);
+    transition: ease-in-out 2s;
+    font-size: 23px;
+    box-sizing: border-box;
+    text-decoration:wavy;
+}
+.app-form{
+   position: relative;
+    display: inline;
+    margin-left: 150px;
+    text-align: center;
+    padding-top: 40px;
+    margin-right:30px ;
+}
+.app-form-button{
+    padding-right: 30px;
+    margin-top: 25px;
+    
+    text-align: center;
+    border-radius: 8px;
+    width: 10vw;
+}
+.app-form-button:hover{
+    background-color: darkblue;
+    color: blanchedalmond;
+}
+.app-form-showdata{
+    background-color:rgb(113, 113, 113);
+    color: beige;
+    text-align: center;
+    padding: 6px;
+}
+.app-form-control{
+    width: 20vw;
+}
+
+@media screen and (max-width : 400px) {
+    .app-form-button{
+        width: 60vw;
+    }
+}
+@media screen and (max-width : 20px) {
+    .app-form-button{
+        width: 100vw;
+    }
+}
